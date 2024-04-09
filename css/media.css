@@ -1,0 +1,142 @@
+@media screen and (min-width: 768px) {
+  /* start home style */
+  .home .home-caption .links {
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+  }
+  /* end home style */
+  /* start chefs style */
+  .chefs .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .chefs .cards .card {
+    width: 48%;
+    margin: 15px 0px;
+  }
+  /* end chefs style */
+  /* start gallery style */
+  .gallery .layout {
+    display: flex;
+    gap: 20px;
+  }
+  /* end gallery style */
+  /* start contact style */
+  .contact .contact-info {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .contact .contact-info .item {
+    width: 48.5%;
+  }
+  /* end contact style */
+  /* start footer style */
+  .footer .container {
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footer .container .column1 {
+    width: 50%;
+  }
+  .footer .container .column3 {
+    width: 50%;
+    order: 1;
+  }
+  .footer .container .column2 {
+    order: 2;
+  }
+  .footer .container .column2 form {
+    flex-direction: row;
+  }
+  .footer .container .column2 form input {
+    width: 80%;
+  }
+  .footer .container .column2 form button {
+    width: 19%;
+  }
+  /* end footer style */
+}
+@media screen and (min-width: 1024px) {
+  /* start nav style */
+  nav .menu {
+    display: none;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* end nav style */
+  /* start home style */
+  .home {
+    padding: 100px 0px;
+  }
+  .home .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home .home-img {
+    width: 45%;
+    text-align: right;
+  }
+  .home .home-caption {
+    width: 50%;
+    text-align: left;
+  }
+  .home .home-caption p {
+    width: 80%;
+  }
+  .home .home-caption .links {
+    justify-content: flex-start;
+  }
+  .home .home-caption .links .book {
+    border-top-left-radius: 0px;
+  }
+  /* end home style */
+  /* start chefs style */
+  .chefs .cards .card {
+    width: 32%;
+    margin: 15px 0px;
+  }
+  /* end chefs style */
+  /* start contact style */
+  .contact .contact-info .item {
+    width: 49%;
+  }
+  .contact form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .contact form .input-50 {
+    width: 49%;
+  }
+  .contact form button {
+    margin: auto;
+  }
+  /* end contact style */
+  /* start footer style */
+  .footer .container {
+    justify-content: space-between;
+  }
+  .footer .container .column1 {
+    width: 25%;
+  }
+  .footer .container .column2 {
+    width: 48%;
+    order: 0;
+  }
+  .footer .container .column3 {
+    width: 25%;
+    order: 0;
+  }
+
+  /* end footer style */
+}
